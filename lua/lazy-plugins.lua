@@ -13,43 +13,45 @@
 
 require('lazy').setup({
 
-  require 'kickstart.plugins.guess-indent',
+  require 'glnvim.plugins.guess-indent',
 
-  require 'kickstart.plugins.gitsigns',
+  require 'glnvim.plugins.gitsigns',
 
-  require 'kickstart.plugins.which-key',
+  require 'glnvim.plugins.which-key',
 
-  require 'kickstart.plugins.telescope',
+  require 'glnvim.plugins.telescope',
 
-  require 'kickstart.plugins.lspconfig',
+  require 'glnvim.plugins.lspconfig',
 
-  require 'kickstart.plugins.conform',
+  require 'glnvim.plugins.conform',
 
-  require 'kickstart.plugins.blink',
+  require 'glnvim.plugins.blink',
 
-  require 'kickstart.plugins.todo-comments',
+  require 'glnvim.plugins.todo-comments',
 
-  require 'kickstart.plugins.mini',
+  require 'glnvim.plugins.mini',
 
-  require 'kickstart.plugins.treesitter',
+  require 'glnvim.plugins.treesitter',
 
-  require 'kickstart.plugins.autopairs',
+  require 'glnvim.plugins.autopairs',
 
-  require 'kickstart.plugins.neo-tree',
+  require 'glnvim.plugins.neo-tree',
 
-  require 'kickstart.plugins.lint',
+  require 'glnvim.plugins.lint',
 
-  -- require 'kickstart.plugins.debug',
+  -- require 'glnvim.plugins.debug',
 
-  require 'kickstart.plugins.kanagawa',
+  require 'glnvim.plugins.kanagawa',
 
-  require 'kickstart.plugins.tokyonight',
+  require 'glnvim.plugins.tokyonight',
 
-  require 'kickstart.plugins.twilight',
+  require 'glnvim.plugins.rose-pine',
 
-  require 'kickstart.plugins.noice',
+  require 'glnvim.plugins.twilight',
 
-  require 'kickstart.plugins.oil',
+  require 'glnvim.plugins.noice',
+
+  require 'glnvim.plugins.oil',
 
 }, {
   ui = {

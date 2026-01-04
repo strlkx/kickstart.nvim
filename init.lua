@@ -26,7 +26,7 @@ else
   -- [[ Configure and install plugins ]]
   require 'lazy-plugins'
 
-  vim.cmd.colorscheme 'kanagawa-wave'
+  vim.cmd.colorscheme 'rose-pine'
 end
 
 -- The line beneath this is called `modeline`. See `:help modeline`
